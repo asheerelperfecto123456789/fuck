@@ -28,6 +28,15 @@
 </platform>
 	
 <plugin name="cordova-plugin-geolocation" spec="~4.0.1" />
+ <platform name="android">
+
+        <config-file target="AndroidManifest.xml" parent="/*">
+            <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+            <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+            <uses-feature android:name="android.hardware.location.gps" />
+        </config-file>
+
+    </platform>
 
 
 <icon src="icon.jpg" platform="android" width="180" height="180" />
