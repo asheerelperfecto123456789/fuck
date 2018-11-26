@@ -27,9 +27,7 @@
     <splash src="images/splash.png" density="port-xhdpi"/>
 </platform>
 	
-<plugin name="cordova-plugin-geolocation" spec="~4.0.1" />
-
-
+<plugin name="cordova-plugin-geolocation" spec="2.4.0" />
 <icon src="icon.jpg" platform="android" width="180" height="180" />
 <splash src="images/splash.png" platform="android" width="320" height="480" />
 </widget>
